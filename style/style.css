@@ -1,0 +1,482 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Roboto Condensed;
+  font-style: normal;
+}
+
+.square {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.feed {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  left: 30px;
+  top: 30px;
+  border-radius: 100%;
+  background-image: url('../img/hills_prescription_diet_gastrointestinal_biome_dog\ \(1\).png');
+  mix-blend-mode: normal;
+}
+.pet {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2 + 121px);
+  top: 230px;
+
+  background: url('../img/Pet.png');
+}
+.box_like {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: 9px;
+
+  box-shadow: 0px 2px 4px rgba(48, 36, 84, 0.15);
+  border-radius: 20px;
+}
+.like {
+  position: absolute;
+  width: 18px;
+  height: 16.8px;
+  left: calc(50% - 18px / 2);
+  top: calc(50% - 16.8px / 2 + 0.4px);
+}
+.buttom_twice {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.button1 {
+  width: 105px;
+  background: #8d58e3;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.button2 {
+  width: 95px;
+  background: #e95471;
+  border-radius: 5px;
+}
+
+.content_text {
+  position: absolute;
+  height: 16px;
+  left: 0px;
+  right: 0px;
+  top: 276px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #202454;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 95px;
+  height: 14px;
+  left: 0px;
+  top: 311px;
+}
+.star_one {
+  order: 0;
+}
+.star_two {
+  order: 1;
+  left: 14px;
+}
+.star_three {
+  order: 2;
+  left: 28px;
+}
+.star_four {
+  order: 3;
+  left: 42px;
+}
+.star_five {
+  order: 4;
+  left: 56px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 150px;
+  height: 47px;
+  left: 0px;
+  bottom: 350px;
+}
+.sale {
+  position: static;
+  width: 96px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+.vector {
+  position: absolute;
+  left: 8.23%;
+  right: 4.37%;
+  top: 6.25%;
+  bottom: 6.25%;
+}
+.vector1 {
+  position: absolute;
+  left: 0%;
+  right: 86.67%;
+  top: 0%;
+  bottom: 57.45%;
+
+  /* Pink */
+
+  background: #e95471;
+  border-radius: 20px;
+}
+.text_price_one {
+  position: absolute;
+  left: 16%;
+  right: 36%;
+  top: 2.13%;
+  bottom: 59.57%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #7b94b0;
+}
+.price_list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 150px;
+  height: 23px;
+  left: 0px;
+  top: calc(50% - 23px / 2 + 12px);
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+.text_price_two {
+  position: static;
+  left: 0%;
+  right: 66.67%;
+  top: 21.74%;
+  bottom: 0%;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  text-decoration-line: line-through;
+  color: #7b94b0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+.text_price_three {
+  position: static;
+  left: 36%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #202454;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 4px;
+}*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Roboto Condensed;
+  font-style: normal;
+}
+
+.square {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.feed {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  left: 30px;
+  top: 30px;
+  border-radius: 100%;
+  background-image: url('../img/hills_prescription_diet_gastrointestinal_biome_dog\ \(1\).png');
+  mix-blend-mode: normal;
+}
+.pet {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2 + 121px);
+  top: 230px;
+
+  background: url('../img/Pet.png');
+}
+.box_like {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: 9px;
+
+  box-shadow: 0px 2px 4px rgba(48, 36, 84, 0.15);
+  border-radius: 20px;
+}
+.like {
+  position: absolute;
+  width: 18px;
+  height: 16.8px;
+  left: calc(50% - 18px / 2);
+  top: calc(50% - 16.8px / 2 + 0.4px);
+}
+.buttom_twice {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.button1 {
+  width: 105px;
+  background: #8d58e3;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.button2 {
+  width: 95px;
+  background: #e95471;
+  border-radius: 5px;
+}
+
+.content_text {
+  position: absolute;
+  height: 16px;
+  left: 0px;
+  right: 0px;
+  top: 276px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #202454;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 95px;
+  height: 14px;
+  left: 0px;
+  top: 311px;
+}
+.star_one {
+  order: 0;
+}
+.star_two {
+  order: 1;
+  left: 14px;
+}
+.star_three {
+  order: 2;
+  left: 28px;
+}
+.star_four {
+  order: 3;
+  left: 42px;
+}
+.star_five {
+  order: 4;
+  left: 56px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 150px;
+  height: 47px;
+  left: 0px;
+  bottom: 350px;
+}
+.sale {
+  position: static;
+  width: 96px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+.vector {
+  position: absolute;
+  left: 8.23%;
+  right: 4.37%;
+  top: 6.25%;
+  bottom: 6.25%;
+}
+.vector1 {
+  position: absolute;
+  left: 0%;
+  right: 86.67%;
+  top: 0%;
+  bottom: 57.45%;
+
+  /* Pink */
+
+  background: #e95471;
+  border-radius: 20px;
+}
+.text_price_one {
+  position: absolute;
+  left: 16%;
+  right: 36%;
+  top: 2.13%;
+  bottom: 59.57%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #7b94b0;
+}
+.price_list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 150px;
+  height: 23px;
+  left: 0px;
+  top: calc(50% - 23px / 2 + 12px);
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+.text_price_two {
+  position: static;
+  left: 0%;
+  right: 66.67%;
+  top: 21.74%;
+  bottom: 0%;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  text-decoration-line: line-through;
+  color: #7b94b0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+.text_price_three {
+  position: static;
+  left: 36%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #202454;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+.eclipse{
+    position: absolute;
+width: 21px;
+height: 20px;
+right: 14px;
+bottom: 27px;
+
+}
+.one_eclipse{
+    position: absolute;
+    left: 27.09%;
+    right: 23.65%;
+    top: 4.83%;
+    bottom: 67.59%;
+}
+.two_eclipse{
+    position: absolute;
+left: 8%;
+right: 4.6%;
+top: 35.86%;
+bottom: 5.52%;
+
+}
